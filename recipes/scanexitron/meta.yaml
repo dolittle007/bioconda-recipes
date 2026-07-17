@@ -21,9 +21,8 @@ build:
 requirements:
   host:
     - python >=3.10,<3.13
+    - hatchling
     - pip
-    - setuptools >=68
-    - wheel
   run:
     - python >=3.10,<3.13
     - pyfaidx >=0.7
